@@ -15,7 +15,7 @@ In this article, we are going to create our first express app, to get started wi
 
 First, we will create a project folder, we can do that using the GUI, but let's try to create that by using the terminal.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680416205176/2b2f38bd-b647-434d-8b64-3718f161b44f.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680416205176/2b2f38bd-b647-434d-8b64-3718f161b44f.png)
 
 * `mkdir helloExpress` - `mkdir` command is used to create a new directory. so this command will create a new directory `helloExpress`
     
@@ -28,7 +28,7 @@ Now the next step is to create our `package.json` file. `package.json` file is a
 
 To create the `package.json` file open the in-built terminal of vs code, you can use `` ctrl + ` `` . Now we are going to write the command `npm init` . This will initialize a new node js project and ask you to fill in a bunch of information about the project. You can give that information or keep pressing enter to either keep them empty or default, and if you don't want to keep pressing enter then you can use `npm init -y` this will skip all the question prompts and set them to default.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680417121036/737efead-f875-4148-9023-3e7a2d975c9c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680417121036/737efead-f875-4148-9023-3e7a2d975c9c.png )
 
 This is how our `package.json` file looks currently.
 
@@ -161,7 +161,7 @@ This line starts the server and listens for incoming requests on the specified p
 
 Now if you open `localhost:3000` in your browser, it will show you `Hello Express` message.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680420191993/0bf3b0a8-ca86-4caf-b6c3-41c8a9f2a318.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680420191993/0bf3b0a8-ca86-4caf-b6c3-41c8a9f2a318.png )
 
 While working with Express we usually don't send this type of one-line message usually we send JSON data which might be coming from the database, but currently, we don't have that type of knowledge so let's create some static JSON data and try to send that as a response. This is the data we are going to send as response.
 
