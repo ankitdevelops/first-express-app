@@ -217,7 +217,7 @@ The above line sets up a new GET route on the root URL ("/users") of our server.
 
 Now if you go to \`[localhost:3000/users](http://localhost:3000/users)\` in your browser or postman you can see the data as result and in postman, you can also see the status code.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680421403820/a603fb15-1ba3-4ebf-bdf6-7256bfeda09c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680421403820/a603fb15-1ba3-4ebf-bdf6-7256bfeda09c.png )
 
 That's it you have successfully created your first express app.
 
